@@ -52,6 +52,13 @@ entity on the page. Blocks are    defined by a unique class
 name that describes their purpose.
 ```
 
+```js
+  1. block is a meaningful container; 
+  2. we can use letters, digits, dashes for naming block; 
+  3. use dash when more than one word 
+
+```
+
 #### `Examples`
 
 ```
@@ -80,6 +87,14 @@ two underscores following the block name.
 
 ```
 
+```js
+  1. Element is not directly meaningful but connected to 
+     block/container;   
+  2. we can use letters, digits, dashes, underscore for naming element;
+  3. syntax: block__element 
+  4. use dash when more than one word 
+```
+
 #### `Examples`
 
 ```
@@ -105,6 +120,13 @@ appearance or behavior.
 Flags on blocks or elements that modify their
 appearance or behavior. Modifiers are indicated
 by two hyphens following the block or element name.
+```
+
+```
+  1. Modifies block or element; (changes in apperance, states)
+  2. we can use letters, digits, dashes, underscore for naming modifiers;
+  3. syntax: block/element--modifier
+  4. use dash when more than one word 
 ```
 
 #### `Examples`
